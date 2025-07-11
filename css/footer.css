@@ -1,0 +1,32 @@
+footer{
+    text-align: center;
+    margin: 105px 450px;
+
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer img{
+    margin-bottom: 0;
+}
+
+footer p{
+    color: rgba(137, 135, 161, 1);
+    margin-bottom: 20px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.footer-links a{
+    color: rgba(137, 135, 161, 1);
+}
