@@ -8,7 +8,7 @@ button{
     color: #FFFFFF;
     background-color: #4E47FF;
     cursor: pointer;
-    transition-duration: 0.4s;
+    transition-duration: 0.6s;
 }
 
 button:hover{
