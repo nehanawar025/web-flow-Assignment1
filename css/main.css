@@ -1,6 +1,7 @@
 main section{
     margin-left: 150px;
     margin-right: 150px;
+    
 }
 
 /* Action */
@@ -62,4 +63,29 @@ main section{
     font-size: 20px;
 }
 
+
+/* Focus */
+.focus{
+    text-align: center;
+    padding: 70px 150px;
+    margin-top: 130px;
+    margin-bottom: 90px;
+}
+
+.focus-head{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.focus-desc{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-btn{
+    margin-bottom: 20px;
+}
+
+.focus-img{
+    border-radius: 48px;
+}
 
