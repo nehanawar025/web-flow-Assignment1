@@ -1,39 +1,40 @@
-main section{
+main section {
     margin-left: 150px;
     margin-right: 150px;
-    
+
 }
 
 /* Action */
 
-.action{
+.action {
     display: flex;
     justify-content: space-around;
+    margin-top: 115px;
 }
 
-.act-content{
+.act-content {
     text-align: left;
 }
 
 
-.act-head{
+.act-head {
     font-size: 42px;
 }
 
-.act-desc{
+.act-desc {
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5);
     margin-top: 23px;
     margin-bottom: 23px;
 }
 
-.act-img{
+.act-img {
     border-radius: 48px;
 }
 
 /* Join */
 
-.join{
+.join {
     text-align: center;
     margin-top: 115px;
     margin-bottom: 130px;
@@ -42,80 +43,150 @@ main section{
     padding: 50px 80px;
 }
 
-.join-head{
+.join-head {
     font-size: 38px;
 }
 
-.join-items{
+.join-items {
     display: flex;
     gap: 155px;
     justify-content: center;
 }
 
-.jn-item-head{
+.jn-item-head {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 80px;
 }
 
-.jn-item-desc{
+.jn-item-desc {
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
 }
 
+/* Users */
+.user {
+    margin: 135px 150px;
+}
+
+
+.user-head {
+    font-size: 42px;
+    text-align: center;
+}
+
+.user-items {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+
+.usr-item {
+    padding: 24px;
+}
+
+.star {
+    width: 100px;
+    height: 20px;
+    background-image: url('../images/icon-star.png');
+    background-repeat: repeat-x;
+    background-size: 20px 20px;
+    margin-bottom: 24px;
+
+}
+
+.card-content h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+.card-content p {
+    color: #1E1E1E;
+}
+
+.review {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.rev-img img{
+    border-radius: 50%;
+}
+.rev-content{
+    display: block;
+    margin-left: 10px;
+}
+
+.rev-content h5{
+    color: #757575;
+    font-size: 16px;
+    margin: 0;
+}
+
+.rev-content p {
+    color: #B3B3B3;
+    font-size: 16px;
+    margin: 0;
+}
 
 /* Focus */
-.focus{
+.focus {
     text-align: center;
     padding: 70px 150px;
     margin-top: 130px;
     margin-bottom: 90px;
 }
 
-.focus-head{
+.focus-head {
     font-size: 50px;
     margin-bottom: 0;
 }
 
-.focus-desc{
+.focus-desc {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.focus-btn{
+.focus-btn {
     margin-bottom: 20px;
 }
 
-.focus-img{
+.focus-img {
     border-radius: 48px;
 }
 
 
 /* Get in Touch */
-.touch{
+.touch {
     display: flex;
     gap: 115px;
     justify-content: space-around;
+    margin-top: 115px;
 }
 
-.touch-head{
+.touch-head {
     font-size: 97px;
 }
 
-.form-itm{
+.form-itm {
     margin-bottom: 20px;
 }
 
-.form-itm label{
+.form-itm label {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 18px;
 }
 
-.form-itm input,textarea{
+.form-itm input,
+textarea {
     padding: 10px 25px;
 }
 
-.form-itm input[type=email], input[type=text]{
+.form-itm input[type=email],
+input[type=text] {
     width: 500px;
     height: 70px;
     border-radius: 10px;
@@ -123,7 +194,7 @@ main section{
     border: 1px solid rgba(214, 221, 237, 1);
 }
 
-.form-itm textarea{
+.form-itm textarea {
     width: 500px;
     height: 135px;
     border-radius: 10px;
@@ -137,10 +208,9 @@ main section{
     font-family: "Inter", sans-serif;
 }
 
-.form-btn{
+.form-btn {
     width: 550px;
     height: 60px;
     padding: 20px 100px;
     margin-bottom: 70px;
 }
-
