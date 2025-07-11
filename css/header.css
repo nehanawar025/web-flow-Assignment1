@@ -1,0 +1,19 @@
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 70px;
+}
+
+.nav-items li{
+    list-style-type:none;;
+}
+
+.banner{
+    margin: 150px 117px;
+    text-align: center;
+}
+
+.banner-head{
+    font-size: 70px;
+}

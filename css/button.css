@@ -1,0 +1,18 @@
+button{
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 36px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: goldenrod;
+    color: black;
+    font-size: 18px;
+}
